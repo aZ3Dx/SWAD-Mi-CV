@@ -23,6 +23,7 @@ header p {
 hr {
     margin: 20px auto auto auto;
     width: 600px;
+    border: 1px solid black;
 }
 
 .first img {
@@ -81,4 +82,34 @@ hr {
 .second .iconos img {
     width: 60px;
     margin: auto 30px auto 30px;
+}
+
+footer {
+    font-size: 12px;
+}
+footer p:first-child {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer p:nth-child(2) {
+    margin-bottom: 16px;
+}
+footer table {
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+footer table, footer tr, footer td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+footer table tr td:first-child {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+footer table tr td:last-child {
+    padding-left: 10px;
+    padding-right: 50px;
+}
+footer table tr:nth-child(3) td:last-child {
+    vertical-align: top;
 }
