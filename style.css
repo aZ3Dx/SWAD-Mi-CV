@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.centrartotal {
+    width: 600px;
+    margin: auto;
+}
+header {
+    text-align: center;
+}
+h3 {
+    margin-top: 30px;
+    font-size: medium;
+}
+header p {
+    color: red;
+    font-weight: 700;
+    font-size: small;
+}
+hr {
+    margin: 20px auto auto auto;
+    width: 600px;
+}
+
+.first img {
+    width: 240px;
+    margin-top: 20px;
+    border-radius: 8%;
+}
+.first p {
+    margin: 20px auto 4px auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.first p:first-of-type span:first-child  {
+    text-decoration: underline;
+    font-style: italic;
+}
+.first p:first-of-type span:last-child  {
+    color: rgb(42, 197, 42);
+}
+
+.first p .italica {
+    font-style: italic;
+}
+.first ol, .first ul {
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.first li {
+    margin-bottom: 2px;
+}
+.first ul {
+    margin-bottom: 40px;
+}
+.first ol li span {
+    font-style: italic;
+}
+.first ul li span {
+    font-weight: bold;
+}
+
+.second p {
+    margin-top: 20px;
+}
+.second p span:first-child {
+    color: rgb(42, 197, 42);
+}
+.second p span:last-child {
+    font-weight: bold;
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.second .iconos img {
+    width: 60px;
+    margin: auto 30px auto 30px;
+}
